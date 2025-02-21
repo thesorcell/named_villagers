@@ -1,7 +1,7 @@
 import csv
 
 def make_function(item, idx):
-	intro = 'execute if score @s NameRNG matches '
+	intro = 'execute if score @s VillagerNames_NameRNG matches '
 	second = ' run data modify entity @s CustomName set value "'
 	return (''.join([intro,str(idx),second,item,'"']))
 
@@ -42,4 +42,4 @@ rare_txt = 'name_files/names_rare.txt'
 
 file_path = 'name_output.txt'
 
-write_output(convert_txt(common_txt))
+write_output(convert_txt(rare_txt))

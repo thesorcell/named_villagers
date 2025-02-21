@@ -1,0 +1,1 @@
+scoreboard objectives add VillagerNames_NameRNG dummy "Villager Name RNG"
